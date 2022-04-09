@@ -1,0 +1,14 @@
+h1 {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+
+}
+img  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}

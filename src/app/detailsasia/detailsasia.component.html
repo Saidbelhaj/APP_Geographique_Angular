@@ -1,0 +1,20 @@
+<h1 class="text-center">Les pays</h1>
+
+<div class="container">
+    <input type="text" class="form-control w-100" placeholder="Search.." (keyup)="search($event)">
+    <div class="row">
+        <div class="col-md-4 mb-5" *ngFor="let item of countries">
+            <img src="{{item.countrieImage}}" alt="Avatar" class="avatar">
+        
+            <br />
+            <a>Name :</a>{{item.countrieName}}
+            <br />
+            <a>Region :</a>{{item.countrieRegion}}
+            <br />
+            <a>population :</a>{{item.countriePopu}}
+            <br />
+            <a>Area :</a>{{item.countrieAria}}
+        </div>
+        
+    </div>
+</div>
